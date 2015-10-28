@@ -19,7 +19,8 @@ nav {
   font-size: 1.25rem;
   text-align: left;
   outline-style: solid;
-  outline-width: 1px;
+  outline-width: 5px;
+  outline-color: white;
 }
 nav a:link {
   color: white;
@@ -40,16 +41,18 @@ a:link {
   color: darkslategrey;
   text-decoration: underline;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li {
+nav li {
   display: inline;
 }
 img {
   width: 200px;
   height: auto;
+  opacity: 0.4;
 }
-
+nav {
+  padding-top: .05%;
+  padding-bottom: .05% ;
+}
+img:hover {
+  opacity: 1.0;
+}
